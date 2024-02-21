@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="author" content="John Doe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+<style>
+/* * {
+  text-align: center;
+  color: rgb(5, 89, 24);
+} */
+#para1 {
+  text-align: center;
+  color: red;
+  background-color: rgb(155, 186, 230);
+}
+p {
+    color:rgb(38, 0, 255);
+}
+.center {
+  text-align: center;
+  color: rgb(255, 123, 0);
+}
+p.center {
+  text-align: left;
+  color: red;
+}
+p.large {
+  font-size: 300%;
+}
+/* h1, h2, p {
+  text-align: right;
+  color: red;
+} */
+</style>
+</head>
+<body>
+
+<p id="para1">Hello World!</p>
+<p>This paragraph is not affected by the style.</p>
+<p>Every paragraph will be affected by the style.</p>
+<p id="para2">Me too!</p>
+<p>And me!</p>
+<h3 class="center">Red and center-aligned heading</h3>
+<p class="center">This paragraph will be red and center-aligned.</p>
+<p class="center large">This paragraph will be red, center-aligned, and in a large font-size.</p>  
+<h1>Hello World!</h1>
+<h2>Smaller heading!</h2>
+<h3>This is a paragraph.</p>
+
+<h1 style="background-color:Tomato;">Tomato</h1>
+<h1 style="background-color:Orange;">Orange</h1>
+<h1 style="background-color:DodgerBlue;">DodgerBlue</h1>
+<h1 style="background-color:MediumSeaGreen;">MediumSeaGreen</h1>
+<h1 style="background-color:Gray;">Gray</h1>
+<h1 style="background-color:SlateBlue;">SlateBlue</h1>
+<h1 style="background-color:Violet;">Violet</h1>
+<h1 style="background-color:LightGray;">LightGray</h1>
+<h1 style="border:2px solid Tomato;">Hello World</h1>
+<h1 style="border:2px solid DodgerBlue;">Hello World</h1>
+<h1 style="border:2px solid Violet;">Hello World</h1>
+
+<h1>Using DIV for styling the content</h1>
+
+<h1>Transparent Boxes</h1>
+
+<p>When using the opacity property to add transparency to the background of an element, all of its child elements become transparent as well. This can make the text inside a fully transparent element hard to read:</p>
+
+<div class="first">
+  <h1>opacity 0.1</h1>
+</div>
+
+<div class="second">
+  <h1>opacity 0.3</h1>
+</div>
+
+<div class="third">
+  <h1>opacity 0.6</h1>
+</div>
+
+<div>
+  <h1>opacity 1 (default)</h1>
+</div>
+
+<h1>Transparent Boxes 2</h1>
+
+<p>Result with opacity:</p>
+
+<div style="opacity:0.1;">
+  <h1>10% opacity</h1>
+</div>
+
+<div style="opacity:0.3;">
+  <h1>30% opacity</h1>
+</div>
+
+<div style="opacity:0.6;">
+  <h1>60% opacity</h1>
+</div>
+
+<div>
+  <h1>opacity 1</h1>
+</div>
+
+<p>Result with rgba():</p>
+
+<div class="firstt">
+  <h1>10% opacity</h1>
+</div>
+
+<div class="secondd">
+  <h1>30% opacity</h1>
+</div>
+
+<div class="thirdd">
+  <h1>60% opacity</h1>
+</div>
+
+<h2>The border-style Property</h2>
+<p>This property specifies what kind of border to display:</p>
+
+<p class="dotted">A dotted border.</p>
+<p class="dashed">A dashed border.</p>
+<p class="solid">A solid border.</p>
+<p class="double">A double border.</p>
+<p class="groove">A groove border.</p>
+<p class="ridge">A ridge border.</p>
+<p class="inset">An inset border.</p>
+<p class="outset">An outset border.</p>
+<p class="none">No border.</p>
+<p class="hidden">A hidden border.</p>
+<p class="mix">A mixed border.</p>
+
+<h2>The border-width Property</h2>
+<p>This property specifies the width of the four borders:</p>
+
+<p class="one">Some text.</p>
+<p class="two">Some text.</p>
+<p class="three">Some text.</p>
+<p class="four">Some text.</p>
+<p class="five">Some text.</p>
+<p class="six">Some text.</p>
+
+<p><b>Note:</b> The "border-width" property does not work if it is used alone. 
+Always specify the "border-style" property to set the borders first.</p>
+
+<h2>The border-width Property</h2>
+<p>The border-width property can have from one to four values (for the top border, right border, bottom border, and the left border):</p>
+
+<p class="oone">Some text.</p>
+<p class="ttwo">Some text.</p>
+<p class="tthree">Some text.</p>
+
+<h2>The border-color Property</h2>
+<p>This property specifies the color of the four borders:</p>
+
+<p class="onee">A solid red border</p>
+<p class="twoo">A solid green border</p>
+<p class="threee">A dotted blue border</p>
+
+<p><b>Note:</b> The "border-color" property does not work if it is used alone. Use the "border-style" property to set the borders first.</p>
+
+<h2>The border-color Property</h2>
+<p>The border-color property can have from one to four values (for the top border, right border, bottom border, and the left border):</p>
+
+<p class="onne">A solid multicolor border</p>
+
+<p class="o">A solid red border</p>
+<p class="t">A solid blue border</p>
+<p class="th">A solid grey border</p>
+
+<h2>Individual Border Sides</h2>
+<p class="a">2 different border styles.</p>
+
+<h2>Individual Border Sides</h2>
+<p class="dif">4 different border styles.</p>
+<p class="diff">3 different border styles.</p>
+<p class="difff">2 different border styles.</p>
+<p class="diffff">1 border style.</p>
+
+
+<h4 class="h4">The border Property</h4>
+
+<p>This property is a shorthand property for border-width, border-style, and border-color.</p>
+<h2>The border-left Property</h2>
+<p class="b-left">This property is a shorthand property for border-left-width, border-left-style, and border-left-color.</p>
+<h2>The border-bottom Property</h2>
+<p class="b-bottom">This property is a shorthand property for border-bottom-width, border-bottom-style, and border-bottom-color.</p>
+
+<h2>The border-radius Property</h2>
+<p>This property is used to add rounded borders to an element:</p>
+
+<p class="normal">Normal border</p>
+<p class="round1">Round border</p>
+<p class="round2">Rounder border</p>
+<p class="round3">Roundest border</p>
+
+<h2>CSS Margins</h2>
+
+<div class="px">This element has a margin of 70px.</div>
+
+<h2>Using individual margin properties</h2>
+
+<div class="content">This div element has a top margin of 100px, a right margin of 150px, a bottom margin of 100px, and a left margin of 80px.</div>
+<h2>The margin shorthand property - 4 values</h2>
+
+<div class="content1">This div element has a top margin of 25px, a right margin of 50px, a bottom margin of 75px, and a left margin of 100px.</div>
+<h2>The margin shorthand property - 3 values</h2>
+
+<div class="content2">This div element has a top margin of 25px, a right and left margin of 50px, and a bottom margin of 75px.</div>
+<h2>The margin shorthand property - 2 values</h2>
+
+<div class="content3">This div element has a top and bottom margin of 25px, and a right and left margin of 50px.</div>
+<h2>The margin shorthand property - 1 value</h2>
+
+<div class="content4">This div element has a top, bottom, left, and right margin of 25px.</div>
+<h2>Use of margin: auto</h2>
+<p class="content5">You can set the margin property to auto to horizontally center the element within its container. The element will then take up the specified width, and the remaining space will be split equally between the left and right margins:</p>
+
+<div>
+This div will be horizontally centered because it has margin: auto;
+</div>
+
+<h2>Use of the inherit value</h2>
+<p>Let the left margin be inherited from the parent element:</p>
+
+<div class="content6">
+<p class="ex1">This paragraph has an inherited left margin (from the div element).</p>
+</div>
+<p>In this example the h1 element has a bottom margin of 50px and the h2 element has a top margin of 20px. So, the vertical margin between h1 and h2 should have been 70px (50px + 20px). However, due to margin collapse, the actual margin ends up being 50px.</p>
+
+<h1 class="headng">Heading 1</h1>
+<h2 class="headg">Heading 2</h2>
+
+<h2>CSS Padding</h2>
+<div class="pad">This element has a padding of 70px.</div>
+
+<h2>Using individual padding properties</h2>
+
+<div class="padd">This div element has a top padding of 50px, a right padding of 30px, a bottom padding of 50px, and a left padding of 80px.</div>
+
+<h2>The padding shorthand property - 4 values</h2>
+
+<div class="paddi">This div element has a top padding of 25px, a right padding of 50px, a bottom padding of 75px, and a left padding of 100px.</div>
+<h2>The padding shorthand property - 3 values</h2>
+
+<div class="paddin">This div element has a top padding of 25px, a right and left padding of 50px, and a bottom padding of 75px.</div>
+<h2>The padding shorthand property - 2 values</h2>
+
+<div class="padding">This div element has a top and bottom padding of 25px, and a right and left padding of 50px.</div>
+<h2>The padding shorthand property - 1 value</h2>
+
+<div class="paddings">This div element has a top, bottom, left, and right padding of 25px.</div>
+<h2>Padding and element width</h2>
+
+<div class="e1">This div is 300px wide.</div>
+<br>
+
+<div class="e2">The width of this div is 350px, even though it is defined as 300px in the CSS.</div>
+<h2>Padding and element width - with box-sizing</h2>
+
+<div class="ee1">This div is 300px wide.</div>
+<br>
+
+<div class="ee2">The width of this div remains at 300px, in spite of the 50px of total left and right padding, because of the box-sizing: border-box property.
+</div>
+<h1>CSS Height, Width and Max-width</h1>
+<h2>CSS height and width properties</h2>
+
+<div class="height">This div element has a height of 50 pixels and a width of 100%.</div>
+<h2>Set the height and width of an element</h2>
+
+<div class="height1">This div element has a height of 200px and a width of 50%.</div>
+<h2>Set the height and width of an element</h2>
+
+<div class="height2">This div element has a height of 100px and a width of 500px.</div>
+<h2>Set the max-width of an element</h2>
+
+<div class="height3">This div element has a height of 100px and a max-width of 500px.</div>
+
+<p>Resize the browser window to see the effect.</p>
+<h1>Box Model</h1>
+<h2>Demonstrating the Box Model</h2>
+
+<p>The CSS box model is essentially a box that wraps around every HTML element. It consists of: borders, padding, margins, and the actual content.</p>
+
+<div class="box">This text is the content of the box. We have added a 50px padding, 20px margin and a 15px green border. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+
+<h2>Calculate the total width:</h2>
+
+<img src="klematis4_big.jpg" width="350" height="263" alt="Klematis">
+<div class="box1">The picture above is 350px wide. The total width of this element is also 350px. The total height of this element is 80px.</div>
+
+<h1>Outline</h1>
+<h2>CSS Outline</h2>
+<p class="outline">This element has a 2px black border and a green outline with a width of 10px.</p>
+<h2>The outline-style Property</h2>
+
+<p class="ddotted">A dotted outline</p>
+<p class="ddashed">A dashed outline</p>
+<p class="ssolid">A solid outline</p>
+<p class="ddouble">A double outline</p>
+<p class="ggroove">A groove outline. The effect depends on the outline-color value.</p>
+<p class="rridge">A ridge outline. The effect depends on the outline-color value.</p>
+<p class="iinset">An inset outline. The effect depends on the outline-color value.</p>
+<p class="ooutset">An outset outline. The effect depends on the outline-color value.</p>
+
+
+<h2>The outline-width Property</h2>
+
+<p class="outline1">A thin outline.</p>
+<p class="outline2">A medium outline.</p>
+<p class="outline3">A thick outline.</p>
+<p class="outline4">A 4px thick outline.</p>
+
+<h2>The outline-color Property</h2>
+<p>The outline-color property is used to set the color of the outline.</p>
+
+<p class="outline5">A solid red outline.</p>
+<p class="outline6">A dotted blue outline.</p>
+<p class="outline7">An outset grey outline.</p>
+<h2>The outline-color Property</h2>
+<p>The color of the outline can also be specified using a hexadecimal value (HEX):</p>
+
+<p class="outline8">A solid red outline.</p>
+<p class="outline9">A dotted blue outline.</p>
+<p class="outline10">A solid grey outline.</p>
+<p><a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_outline-color-rgb" target="_blan">RGB Values</a></p>
+<p><a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_outline-color-hsl" target="_blan">HSL Values</a></p>
+
+<h2>The outline Property</h2>
+
+<p class="outline11">A dashed outline.</p>
+<p class="outline12">A dotted red outline.</p>
+<p class="outline13">A 5px solid yellow outline.</p>
+<p class="outline14">A thick ridge pink outline.</p>
+
+<h2>The outline-offset Property</h2>
+
+<p class="offset">This paragraph has an outline 15px outside the border edge.</p>
+<h2>The outline-offset Property</h2>
+
+<p class="offset1">This paragraph has an outline of 15px outside the border edge.</p>
+
+<div class="text1">
+    <h1>text formatting</h1>
+    <p class="text">This text is styled with some of the text formatting properties. The heading uses the text-align, text-transform, and color properties.
+    The paragraph is indented, aligned, and the space between characters is specified. The underline is removed from this colored
+    <a target="_blank" href="tryit.asp?filename=trycss_text">"Try it Yourself"</a> link.</p>
+  </div>
+<h1 class="text2">This is heading 1</h1>
+<p class="text3">This is an ordinary paragraph. Notice that this text is blue. The default text color for a page is defined in the body selector.</p>
+<p>Another paragraph.</p>
+
+<h1 class="align1">Heading 1 (center)</h1>
+<h2 class="align2">Heading 2 (left)</h2>
+<h3 class="align3">Heading 3 (right)</h3>
+<p class="align4">The three headings above are aligned center, left and right.</p>
+
+
+<h1>Example text-align: justify</h1>
+
+<p>The text-align: justify; value stretches the lines so that each line has equal width (like in newspapers and magazines).</p>
+
+<div class="justify">
+In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since. 'Whenever you feel like criticizing anyone,' he told me, 'just remember that all the people in this world haven't had the advantages that you've had.'
+</div>
+
+<h1>The text-align-last Property</h1>
+
+<h2>text-align-last: right:</h2>
+<p class="centr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.</p>
+
+<h2>text-align-last: center:</h2>
+<p class="b">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.</p>
+
+<h2>text-align-last: justify:</h2>
+<p class="c">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.</p>
+
+<p>This is the default text direction.</p>
+
+<p class="rl">This is right-to-left text direction.</p>
+
+<h1>The vertical-align Property</h1>
+
+<h2>vertical-align: baseline (default):</h2>
+<p>An <img class="a" src="sqpurple.gif" width="9" height="9"> image with a default alignment.</p> 
+
+<h2>vertical-align: text-top:</h2>
+<p>An <img class="b" src="sqpurple.gif" width="9" height="9"> image with a text-top alignment.</p> 
+
+<h2>vertical-align: text-bottom:</h2>
+<p>An <img class="c" src="sqpurple.gif" width="9" height="9"> image with a text-bottom alignment.</p>
+
+<h2>vertical-align: sub:</h2>
+<p>An <img class="d" src="sqpurple.gif" width="9" height="9"> image with a sub alignment.</p> 
+
+<h2>vertical-align: sup:</h2>
+<p>An <img class="e" src="sqpurple.gif" width="9" height="9"> image with a super alignment.</p>
+
+<h1>Text Decoration</h1>
+
+</body>
+</html>
