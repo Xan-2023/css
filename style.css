@@ -360,128 +360,642 @@ p.outline1 {
     outline-color: red;
     outline-width: thin;
   }
-  
-  p.outline2 {
+
+p.outline2 {
+border: 1px solid black;
+outline-style: solid;
+outline-color: red;
+outline-width: medium;
+}
+
+p.outline3 {
+border: 1px solid black;
+outline-style: solid;
+outline-color: red;
+outline-width: thick;
+}
+
+p.outline4 {
+border: 1px solid black;
+outline-style: solid;
+outline-color: red;
+outline-width: 4px;
+}
+p.outline5 {
+border: 2px solid black;
+outline-style: solid;
+outline-color: red;
+}
+
+p.outline6 {
+border: 2px solid black;
+outline-style: dotted;
+outline-color: blue;
+}
+
+p.outline7 {
+border: 2px solid black;
+outline-style: outset;
+outline-color: grey;
+}
+p.outline8 {
+border: 2px solid black;
+outline-style: solid;
+outline-color: #ff0000; /* red */
+}
+
+p.outline9 {
+border: 2px solid black;
+outline-style: dotted;
+outline-color: #0000ff; /* blue */
+}
+
+p.outline10 {
+border: 2px solid black;
+outline-style: solid;
+outline-color: #bbbbbb; /* grey */
+}
+p.outline11 {outline: dashed;}
+p.outline12 {outline: dotted red;}
+p.outline13 {outline: 5px solid yellow;}
+p.outline14 {outline: thick ridge pink;}
+p.offset {
+    margin: 30px;
     border: 1px solid black;
-    outline-style: solid;
-    outline-color: red;
-    outline-width: medium;
-  }
-  
-  p.outline3 {
+    outline: 1px solid red;
+    outline-offset: 15px;
+}
+p.offset1 {
+    margin: 30px;
+    background:yellow;
     border: 1px solid black;
-    outline-style: solid;
-    outline-color: red;
-    outline-width: thick;
+    outline: 1px solid red;
+    outline-offset: 15px;
+}
+div.text1 {
+  background-color: aliceblue;
+}
+p.text {
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+}
+
+a {
+  text-decoration: none;
+  color: #008CBA;
+}
+h1.text2 {
+  color: blue;
+}
+
+p.text3 {
+  color: green;
+}
+h1.align1 {
+  text-align: center;
+}
+
+h2.algin2 {
+  text-align: left;
+}
+
+h3.align3 {
+  text-align: right;
+}
+div.justify {
+  border: 1px solid black;
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+  text-align: justify;
+}
+p.centr {
+  text-align-last: right;
+}
+
+p.b {
+  text-align-last: center;
+}
+
+p.c {
+  text-align-last: justify;
+}
+p.rl {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+h1.decor {
+  text-decoration: overline;
+}
+
+h2.decor1 {
+  text-decoration: line-through;
+}
+
+h3.decor2 {
+  text-decoration: underline;
+}
+
+p.ex {
+  text-decoration: overline underline;
+}
+h1.decor3 {
+  text-decoration-line: overline;
+  text-decoration-color: red;
+}
+
+h2.decor4 {
+  text-decoration-line: line-through;
+  text-decoration-color: blue;
+}
+
+h3.decor5 {
+  text-decoration-line: underline;
+  text-decoration-color: green;  
+}
+
+p.decor6 {
+  text-decoration-line: overline underline;
+  text-decoration-color: purple;  
+}
+h1.decor7 {
+  text-decoration-line: underline;
+  text-decoration-style: solid; /* this is default */
+}
+
+h2.decor8 {
+  text-decoration-line: underline;
+  text-decoration-style: double;
+}
+
+h3.decor9 {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;  
+}
+
+p.decor10 {
+  text-decoration-line: underline;
+  text-decoration-style: dashed;  
+}
+
+p.decor11 {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;  
+}
+
+p.decor12 {
+  text-decoration-line: underline;
+  text-decoration-color: red;  
+  text-decoration-style: wavy;  
+}
+h1.decor13 {
+  text-decoration-line: underline;
+  text-decoration-thickness: auto;  /* this is default */
+}
+
+h2.decor14 {
+  text-decoration-line: underline;
+  text-decoration-thickness: 5px;
+}
+
+h3.decor15 {
+  text-decoration-line: underline;
+  text-decoration-thickness: 25%;
+}
+
+p.decor16 {
+  text-decoration-line: underline;
+  text-decoration-color: red;  
+  text-decoration-style: double;
+  text-decoration-thickness: 5px;  
+}
+h1.decor17 {
+  text-decoration: underline;
+}
+
+h2.decor18 {
+  text-decoration: underline red;
+}
+
+h3.decor19 {
+  text-decoration: underline red double;
+}
+
+p.decor20 {
+  text-decoration: underline red double 5px;
+}
+a {
+  text-decoration: none;
+}
+p.uppercase {
+  text-transform: uppercase;
+}
+
+p.lowercase {
+  text-transform: lowercase;
+}
+
+p.capitalize {
+  text-transform: capitalize;
+}
+p.spacing {
+  text-indent: 50px;
+}
+h2.spacing2 {
+  letter-spacing: 5px;
+}
+
+h3.spacing3 {
+  letter-spacing: -2px;
+}
+p.small {
+  line-height: 0.7;
+}
+
+p.big {
+  line-height: 1.8;
+}
+p.spacing4 {
+  word-spacing: 10px;
+}
+
+p.spacing5 {
+  word-spacing: -2px;
+}
+p.nowrap {
+  white-space: nowrap;
+}
+h1.shadow {
+  text-shadow: 2px 2px;
+}
+h1.shadow1 {
+  text-shadow: 2px 2px red;
+}
+h1.shadow2 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+h1.shadow3 {
+  text-shadow: 0 0 3px #FF0000;
+}
+h1.shadow4 {
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+h1.shadow5 {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.p1 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.p2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.p3 {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+p {
+  font-family: Tahoma, Verdana, sans-serif;
   }
-  
-  p.outline4 {
-    border: 1px solid black;
-    outline-style: solid;
-    outline-color: red;
-    outline-width: 4px;
-  }
-  p.outline5 {
-    border: 2px solid black;
-    outline-style: solid;
-    outline-color: red;
-  }
-  
-  p.outline6 {
-    border: 2px solid black;
-    outline-style: dotted;
-    outline-color: blue;
-  }
-  
-  p.outline7 {
-    border: 2px solid black;
-    outline-style: outset;
-    outline-color: grey;
-  }
-  p.outline8 {
-    border: 2px solid black;
-    outline-style: solid;
-    outline-color: #ff0000; /* red */
-  }
-  
-  p.outline9 {
-    border: 2px solid black;
-    outline-style: dotted;
-    outline-color: #0000ff; /* blue */
-  }
-  
-  p.outline10 {
-    border: 2px solid black;
-    outline-style: solid;
-    outline-color: #bbbbbb; /* grey */
-  }
-    p.outline11 {outline: dashed;}
-    p.outline12 {outline: dotted red;}
-    p.outline13 {outline: 5px solid yellow;}
-    p.outline14 {outline: thick ridge pink;}
-    p.offset {
-        margin: 30px;
-        border: 1px solid black;
-        outline: 1px solid red;
-        outline-offset: 15px;
-    }
-    p.offset1 {
-        margin: 30px;
-        background:yellow;
-        border: 1px solid black;
-        outline: 1px solid red;
-        outline-offset: 15px;
-      }
-      div.text1 {
-        background-color: aliceblue;
-      }
-      p.text {
-        text-indent: 50px;
-        text-align: justify;
-        letter-spacing: 3px;
-      }
-      
-      a {
-        text-decoration: none;
-        color: #008CBA;
-      }
-      h1.text2 {
-        color: blue;
-      }
-      
-      p.text3 {
-        color: green;
-      }
-      h1.align1 {
-        text-align: center;
-      }
-      
-      h2.algin2 {
-        text-align: left;
-      }
-      
-      h3.align3 {
-        text-align: right;
-      }
-      div.justify {
-        border: 1px solid black;
-        padding: 10px;
-        width: 200px;
-        height: 200px;
-        text-align: justify;
-      }
-      p.centr {
-        text-align-last: right;
-      }
-      
-      p.b {
-        text-align-last: center;
-      }
-      
-      p.c {
-        text-align-last: justify;
-      }
-      p.rl {
-        direction: rtl;
-        unicode-bidi: bidi-override;
-      }
+h1.arialsan {
+  font-family: Arial, sans-serif;
+}
+h1.verd {
+  font-family: Verdana, sans-serif;
+}
+h1.taho {
+  font-family: Tahoma, sans-serif;
+}
+h1.ms {
+  font-family: 'Trebuchet MS', sans-serif;
+}
+h1.times {
+  font-family: 'Times New Roman', serif;
+}
+h1.serif {
+  font-family: Georgia, serif;
+}
+h1.garamod {
+  font-family: Garamond, serif;
+}
+h1.mono {
+  font-family: 'Courier New', monospace;
+}
+h1.cursives {
+  font-family: 'Brush Script MT', cursive;
+}
+a {
+  text-decoration-line: underline;
+  color: #def609;
+}
+p.normal {
+  font-style: normal;
+}
+
+p.italic {
+  font-style: italic;
+}
+
+p.oblique {
+  font-style: oblique;
+}
+p.normall {
+  font-weight: normal;
+}
+
+p.lightl {
+  font-weight: lighter;
+}
+
+p.thickl {
+  font-weight: bold;
+}
+
+p.thickerl {
+  font-weight: 900;
+}
+p.normmal {
+  font-variant: normal;
+}
+
+p.smmall {
+  font-variant: small-caps;
+}
+.sofi{
+  font-family: "Sofia", sans-serif;
+}
+.trirong{
+  font-family: "Trirong", serif;
+}
+.audiowide{
+  font-family: "Audiowide", sans-serif;
+}
+.afont {
+  font-family: "Audiowide", sans-serif;
+}
+
+.bfont {
+  font-family: "Sofia", sans-serif;
+}
+
+.cfont {
+  font-family: "Trirong", serif;
+}
+.sf{
+  font-family: "Sofia", sans-serif;
+  font-size: 30px;
+  text-shadow: 3px 3px 3px #ababab;
+}
+.font-effect-fire{
+  font-family: "Sofia", sans-serif;
+font-size: 50px;
+}
+.neon{
+  font-family: "Sofia", sans-serif;
+  font-size: 80px;
+}
+a.georg{
+  text-decoration-line: underline;
+  color: #000000;
+}
+p.abold {
+  font: 20px Arial, sans-serif;
+}
+
+p.bbold {
+  font: italic small-caps bold 12px/30px Georgia, serif;
+  color: #000000;
+}
+a.hotp{
+  color: hotpink;
+}
+
+  /* unvisited link */
+a.hotpink:link {
+  color: red;
+}
+
+/* visited link */
+a.hotpink:visited {
+  color: green;
+}
+
+/* mouse over link */
+a.hotpink:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a.hotpink:active {
+  color: blue;
+}
+a.green:link {
+  text-decoration: none;
+  color: #a0c687;
+}
+
+a.green:visited {
+  text-decoration: none;
+  color: #d11781;
+}
+
+a.green:hover {
+  text-decoration: underline;
+  color: #2a071b;
+}
+
+a.green:active {
+  text-decoration: underline;
+  color: #d17410;
+ 
+}
+a.link1:link {
+  background-color: yellow;
+}
+
+a.link1:visited {
+  background-color: cyan;
+}
+
+a.link1:hover {
+  background-color: lightgreen;
+}
+
+a.link1:active {
+  background-color: hotpink;
+}
+a.link2:link, a.link2:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.link2:hover, a.link2:active {
+  background-color: red;
+}
+
+a.lone:link {color:#ff0000;}
+a.lone:visited {color:#0000ff;}
+a.lone:hover {color:#ffcc00;}
+
+a.ltwo:link {color:#ff0000;}
+a.ltwo:visited {color:#0000ff;}
+a.ltwo:hover {font-size:150%;}
+
+a.lthree:link {color:#ff0000;}
+a.lthree:visited {color:#0000ff;}
+a.lthree:hover {background:#66ff66;}
+
+a.lfour:link {color:#ff0000;}
+a.lfour:visited {color:#0000ff;}
+a.lfour:hover {font-family:monospace;}
+
+a.lfive:link {color:#ff0000;text-decoration:none;}
+a.lfive:visited {color:#0000ff;text-decoration:none;}
+a.lfive:hover {text-decoration:underline;}
+a.link3:link, a.link3:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid green;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.link3:hover, a.link3:active {
+  background-color: green;
+  color: white;
+}
+li.ul1 {
+  list-style-type: circle;
+
+}
+
+li.ul2 {
+  list-style-type: square;
+}
+
+li.ol1 {
+  list-style-type: upper-roman;
+}
+
+li.ol2 {
+  list-style-type: lower-alpha;
+}
+li.ul3 {
+  list-style-image: url('sqpurple.gif');
+}
+li.ul4 {
+  list-style-position: outside;
+}
+
+li.ul5 {
+  list-style-position: inside;
+}
+
+ul.demo {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+ol.co1 {
+  background: #ff9999;
+  padding: 20px;
+}
+
+ul.co2 {
+  background: #3399ff;
+  padding: 20px;
+}
+
+ol.co1 li {
+  background: #ffe5e5;
+  color: darkred;
+  padding: 5px;
+  margin-left: 35px;
+}
+
+ul.co2 li {
+  background: #cce5ff;
+  color: darkblue;
+  margin: 5px;
+}
+
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td.fan, th.fa {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+th.fa {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+th.add, td.addb {
+  border: 1px solid;
+}
+th.full, td.fullb {
+  border: 1px solid;
+}
+
+#fullb {
+  width: 100%;
+}
+td.collaps, th.coll {
+  border: 1px solid;
+}
+
+#collapseb {
+  width: 100%;
+  border-collapse: collapse;
+}
+#whp {
+  width: 100%;
+  border: 1px solid;
+}
+
+#whp, td.whp, th.wh {
+  border: 1px solid black;
+}
+
+#whp {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th.wh {
+  height: 70px;
+}
+
+#savings, td.saving, th.sav {
+  border: 1px solid black;
+}
+
+#savings {
+  border-collapse: collapse;
+  width: 50%;
+}
