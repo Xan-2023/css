@@ -17,7 +17,7 @@ body {
     background-color: blueviolet;
 
   } */
-  div {
+  .trans {
     background-color: green;
   }
   
@@ -34,7 +34,7 @@ body {
     opacity: 0.6;
   }
 
-  div {
+  .transs {
     background: rgb(0, 128, 0);
   }
   
@@ -947,7 +947,7 @@ td.fan, th.fa {
 
 #customers tr:hover {background-color: #ddd;}
 
-th.fa {
+.fa {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
@@ -999,3 +999,215 @@ th.wh {
   border-collapse: collapse;
   width: 50%;
 }
+
+#T-align, td.T-alig, th.T-align {
+  border: 1px solid black;
+}
+
+#T-align {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td.T-alig {
+  text-align: center;
+}
+#T-left, td.T-lef, th.T-left {
+  border: 1px solid black;
+}
+
+#T-left {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th.T-left {
+  text-align: left;
+}
+
+#T-bot, td.T-bo, th.T-bot {
+  border: 1px solid black;
+}
+
+#T-bot {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td.T-bo {
+  height: 50px;
+  vertical-align: bottom;
+}
+#T-style, td.T-styl, th.T-style {  
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+#T-style {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th.T-style, td.T-styl {
+  padding: 15px;
+}
+#T-div {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th.T-div, td.T-di {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+#T-hover {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th.T-hover, td.T-hove {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.hove:hover {background-color: coral;}
+#T-stripe {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th.T-stripe, td.T-strip {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+#cth {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th.cth, td.ct {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+.cth {
+  background-color: #04AA6D;
+  color: white;
+}
+
+#T-responsive {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th.T-responsive, td.T-res {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+.display, .displa {
+  display: inline;
+  color: #ff0000;
+  
+}
+.block1 {
+  display: block;
+  color: #b32977;
+}
+h1.hidden {
+  display: none;
+ 
+}
+
+h1.hidden1 {
+  visibility: hidden;
+}
+.div1 {
+  width: 500px;
+  margin: auto;
+  border: 3px solid #73AD21;
+}
+
+.div2 {
+  max-width: 500px;
+  margin: auto;
+  border: 3px solid #73AD21;
+}
+div.static {
+  position: static;
+  border: 3px solid #73AD21;
+}
+div.relative {
+  position: relative;
+  left: 30px;
+  border: 3px solid #73AD21;
+}
+div.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  border: 3px solid #73AD21;
+}
+
+div.relative1 {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  border: 3px solid #73AD21;
+} 
+
+div.absolute {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73AD21;
+}
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: #cae8ca;
+  border: 2px solid #4CAF50;
+}
+.w3-btn:link, .w3-btn:visited {
+  color: #FFFFFF;
+  background-color: #4CAF50;
+}
+.w3-btn, .w3-example .ws-btn {
+  background-color: #04AA6D!important;
+  border-radius: 5px;
+  font-size: 17px;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 6px 18px;
+}
+.w3-margin-bottom {
+  margin-bottom: 16px!important;
+}
+.w3-btn, .w3-button {
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+
+

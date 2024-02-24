@@ -75,19 +75,19 @@ p.large {
 
 <p>When using the opacity property to add transparency to the background of an element, all of its child elements become transparent as well. This can make the text inside a fully transparent element hard to read:</p>
 
-<div class="first">
+<div class="first trans">
   <h1>opacity 0.1</h1>
 </div>
 
-<div class="second">
+<div class="second trans">
   <h1>opacity 0.3</h1>
 </div>
 
-<div class="third">
+<div class="third trans">
   <h1>opacity 0.6</h1>
 </div>
 
-<div>
+<div class="trans">
   <h1>opacity 1 (default)</h1>
 </div>
 
@@ -95,33 +95,33 @@ p.large {
 
 <p>Result with opacity:</p>
 
-<div style="opacity:0.1;">
+<div class="trans" style="opacity:0.1;">
   <h1>10% opacity</h1>
 </div>
 
-<div style="opacity:0.3;">
+<div class="trans" style="opacity:0.3;">
   <h1>30% opacity</h1>
 </div>
 
-<div style="opacity:0.6;">
+<div class="trans" style="opacity:0.6;">
   <h1>60% opacity</h1>
 </div>
 
-<div>
+<div class="trans">
   <h1>opacity 1</h1>
 </div>
 
 <p>Result with rgba():</p>
 
-<div class="firstt">
+<div class="firstt transs">
   <h1>10% opacity</h1>
 </div>
 
-<div class="secondd">
+<div class="secondd transs">
   <h1>30% opacity</h1>
 </div>
 
-<div class="thirdd">
+<div class="thirdd transs">
   <h1>60% opacity</h1>
 </div>
 
@@ -989,5 +989,420 @@ This is some text that will not wrap.
 </table>
 
 <h1>CSS Tables - Table Alignment</h1>
+
+<h2>The text-align Property</h2>
+
+<p>This property sets the horizontal alignment (like left, right, or center) of the content in th or td.</p>
+
+<table id="T-align">
+  <tr>
+    <th class="T-align">Firstname</th>
+    <th class="T-align">Lastname</th>
+    <th class="T-align">Savings</th>
+  </tr>
+  <tr>
+    <td class="T-alig">Peter</td>
+    <td class="T-alig">Griffin</td>
+    <td class="T-alig">$100</td>
+  </tr>
+  <tr>
+    <td class="T-alig">Lois</td>
+    <td class="T-alig">Griffin</td>
+    <td class="T-alig">$150</td>
+  </tr>
+  <tr>
+    <td class="T-alig">Joe</td>
+    <td class="T-alig">Swanson</td>
+    <td class="T-alig">$300</td>
+  </tr>
+  <tr>
+    <td class="T-alig">Cleveland</td>
+    <td class="T-alig">Brown</td>
+    <td class="T-alig">$250</td>
+  </tr>
+</table>
+<h2>The text-align Property</h2>
+
+<p>This property sets the horizontal alignment (like left, right, or center) of the content in th or td.</p>
+
+<table id="T-left">
+  <tr>
+    <th class="T-left">Firstname</th>
+    <th class="T-left">Lastname</th>
+    <th class="T-left">Savings</th>
+  </tr>
+  <tr>
+    <td class="T-lef">Peter</td>
+    <td class="T-lef">Griffin</td>
+    <td class="T-lef">$100</td>
+  </tr>
+  <tr>
+    <td class="T-lef">Lois</td>
+    <td class="T-lef">Griffin</td>
+    <td class="T-lef">$150</td>
+  </tr>
+  <tr>
+    <td class="T-lef">Joe</td>
+    <td class="T-lef">Swanson</td>
+    <td class="T-lef">$300</td>
+  </tr>
+  <tr>
+    <td class="T-lef">Cleveland</td>
+    <td class="T-lef">Brown</td>
+    <td class="T-lef">$250</td>
+  </tr>
+</table>
+
+<h2>The vertical-align Property</h2>
+
+<p>This property sets the vertical alignment (like top, bottom, or middle) of the content in th or td.</p>
+
+<table id="T-bot">
+  <tr>
+    <th class="T-bot">Firstname</th>
+    <th class="T-bot">Lastname</th>
+    <th class="T-bot">Savings</th>
+  </tr>
+  <tr>
+    <td class="T-bo">Peter</td>
+    <td class="T-bo">Griffin</td>
+    <td class="T-bo">$100</td>
+  </tr>
+  <tr>
+    <td class="T-bo">Lois</td>
+    <td class="T-bo">Griffin</td>
+    <td class="T-bo">$150</td>
+  </tr>
+  <tr>
+    <td class="T-bo">Joe</td>
+    <td class="T-bo">Swanson</td>
+    <td class="T-bo">$300</td>
+  </tr>
+  <tr>
+    <td class="T-bo">Cleveland</td>
+    <td class="T-bo">Brown</td>
+    <td class="T-bo">$250</td>
+  </tr>
+</table>
+
+<h2>The padding Property</h2>
+
+<p>This property adds space between the border and the content in a table.</p>
+
+<table id="T-style">
+  <tr>
+    <th class="T-style">Firstname</th>
+    <th class="T-style">Lastname</th>
+    <th class="T-style">Savings</th>
+  </tr>
+  <tr>
+    <td class="T-styl">Peter</td>
+    <td class="T-styl">Griffin</td>
+    <td class="T-styl">$100</td>
+  </tr>
+  <tr>
+    <td class="T-styl">Lois</td>
+    <td class="T-styl">Griffin</td>
+    <td class="T-styl">$150</td>
+  </tr>
+  <tr>
+    <td class="T-styl">Joe</td>
+    <td class="T-styl">Swanson</td>
+    <td class="T-styl">$300</td>
+  </tr>
+  <tr>
+    <td class="T-styl">Cleveland</td>
+    <td class="T-styl">Brown</td>
+    <td class="T-styl">$250</td>
+  </tr>
+</table>
+
+<h2>Bordered Table Dividers</h2>
+<p>Add the border-bottom property to th and td for horizontal dividers:</p>
+
+<table id="T-div">
+  <tr>
+    <th class="T-div">Firstname</th>
+    <th class="T-div">Lastname</th>
+  <th class="T-div">Savings</th>
+  </tr>
+  <tr>
+    <td class="T-di">Peter</td>
+    <td class="T-di">Griffin</td>
+    <td class="T-di">$100</td>
+  </tr>
+  <tr>
+    <td class="T-di">Lois</td>
+    <td class="T-di">Griffin</td>
+    <td class="T-di">$150</td>
+  </tr>
+  <tr>
+    <td class="T-di">Joe</td>
+    <td class="T-di">Swanson</td>
+    <td class="T-di">$300</td>
+  </tr>
+  <tr>
+    <td class="T-di">Cleveland</td>
+    <td class="T-di">Brown</td>
+    <td class="T-di">$250</td>
+  </tr>
+</table>
+
+<h2>Hoverable Table</h2>
+
+<p>Move the mouse over the table rows to see the effect.</p>
+
+<table id="T-hover">
+  <tr class="hove">
+    <th class="T-hover">First Name</th>
+    <th class="T-hover">Last Name</th>
+    <th class="T-hover">Points</th>
+  </tr>
+  <tr class="hove">
+    <td class="T-hove">Peter</td>
+    <td class="T-hove">Griffin</td>
+    <td class="T-hove">$100</td>
+  </tr>
+  <tr class="hove">
+    <td class="T-hove">Lois</td>
+    <td class="T-hove">Griffin</td>
+    <td class="T-hove">$150</td>
+  </tr>
+  <tr class="hove">
+    <td class="T-hove">Joe</td>
+    <td class="T-hove">Swanson</td>
+    <td class="T-hove">$300</td>
+  </tr>
+  <tr class="hove">
+    <td class="T-hove">Cleveland</td>
+    <td class="T-hove">Brown</td>
+    <td class="T-hove">$250</td>
+  </tr>
+</table>
+
+<h2>Striped Table</h2>
+
+<p>For zebra-striped tables, use the nth-child() selector and add a background-color to all even (or odd) table rows:</p>
+
+<table id="T-stripe">
+  <tr>
+  <th class="T-stripe">First Name</th>
+  <th class="T-stripe">Last Name</th>
+  <th class="T-stripe">Points</th>
+  </tr>
+  <tr>
+  <td class="T-strip">Peter</td>
+  <td class="T-strip">Griffin</td>
+  <td class="T-strip">$100</td>
+  </tr>
+  <tr>
+  <td class="T-strip">Lois</td>
+  <td class="T-strip">Griffin</td>
+  <td class="T-strip">$150</td>
+  </tr>
+  <tr>
+  <td class="T-strip">Joe</td>
+  <td class="T-strip">Swanson</td>
+  <td class="T-strip">$300</td>
+  </tr>
+  <tr>
+  <td class="T-strip">Cleveland</td>
+  <td class="T-strip">Brown</td>
+  <td class="T-strip">$250</td>
+  </tr>
+</table>
+
+<h2>Colored Table Header</h2>
+
+<table id="cth">
+  <tr>
+    <th class="cth">Firstname</th>
+    <th class="cth">Lastname</th>
+    <th class="cth">Savings</th>
+  </tr>
+  <tr>
+    <td class="ct">Peter</td>
+    <td class="ct">Griffin</td>
+    <td class="ct">$100</td>
+  </tr>
+  <tr>
+    <td class="ct">Lois</td>
+    <td class="ct">Griffin</td>
+    <td class="ct">$150</td>
+  </tr>
+  <tr>
+    <td class="ct">Joe</td>
+    <td class="ct">Swanson</td>
+    <td class="ct">$300</td>
+  </tr>
+  <tr>
+    <td class="ct">Cleveland</td>
+    <td class="ct">Brown</td>
+    <td class="ct">$250</td>
+</tr>
+</table>
+
+<h2>Responsive Table</h2>
+<p>A responsive table will display a horizontal scroll bar if the screen is too 
+small to display the full content. Resize the browser window to see the effect:</p>
+<p>To create a responsive table, add a container element (like div) with <strong>overflow-x:auto</strong> around the table element:</p>
+
+<div style="overflow-x: auto;">
+  <table id="T-responsive">
+    <tr>
+      <th class="T-responsive">First Name</th>
+      <th class="T-responsive">Last Name</th>
+      <th class="T-responsive">Points</th>
+      <th class="T-responsive">Points</th>
+      <th class="T-responsive">Points</th>
+      <th class="T-responsive">Points</th>
+      <th class="T-responsive">Points</th>
+      <th class="T-responsive">Points</th>
+      <th class="T-responsive">Points</th>
+      <th class="T-responsive">Points</th>
+      <th class="T-responsive">Points</th>
+      <th class="T-responsive">Points</th>
+    </tr>
+    <tr>
+      <td class="T-res">Jill</td>
+      <td class="T-res">Smith</td>
+      <td class="T-res">50</td>
+      <td class="T-res">50</td>
+      <td class="T-res">50</td>
+      <td class="T-res">50</td>
+      <td class="T-res">50</td>
+      <td class="T-res">50</td>
+      <td class="T-res">50</td>
+      <td class="T-res">50</td>
+      <td class="T-res">50</td>
+      <td class="T-res">50</td>
+    </tr>
+    <tr>
+      <td class="T-res">Eve</td>
+      <td class="T-res">Jackson</td>
+      <td class="T-res">94</td>
+      <td class="T-res">94</td>
+      <td class="T-res">94</td>
+      <td class="T-res">94</td>
+      <td class="T-res">94</td>
+      <td class="T-res">94</td>
+      <td class="T-res">94</td>
+      <td class="T-res">94</td>
+      <td class="T-res">94</td>
+      <td class="T-res">94</td>
+    </tr>
+    <tr>
+      <td class="T-res">Adam</td>
+      <td class="T-res">Johnson</td>
+      <td class="T-res">67</td>
+      <td class="T-res">67</td>
+      <td class="T-res">67</td>
+      <td class="T-res">67</td>
+      <td class="T-res">67</td>
+      <td class="T-res">67</td>
+      <td class="T-res">67</td>
+      <td class="T-res">67</td>
+      <td class="T-res">67</td>
+      <td class="T-res">67</td>
+    </tr>
+  </table>
+</div>
+
+<p>Display a list of links as a horizontal menu:</p>
+
+<ul>
+  <li class="display"><a class="displa" href="/html/default.asp" target="_blank">HTML</a></li>
+  <li class="display"><a class="displa" href="/css/default.asp" target="_blank">CSS</a></li>
+  <li class="display"><a class="displa" href="/js/default.asp" target="_blank">JavaScript</a></li>
+</ul>
+
+<h1>Display span elements as block elements</h1>
+
+<span class="block1">A display property with</span> <span class="block1">a value of "block" results in</span> <span class="block1">a line break between each span elements.</span>
+<h1>This is a visible heading</h1>
+<h1 class="hidden">This is a hidden heading</h1>
+<p class="block1">Notice that the h1 element with display: none; does not take up any space.</p>
+
+<h1>This is a visible heading</h1>
+<h1 class="hidden1">This is a hidden heading</h1>
+<p>Notice that the hidden heading still takes up space.</p>
+
+<h2>CSS Max-width</h2>
+
+<div class="div1">This div element has width: 500px;</div>
+<br>
+
+<div class="div2">This div element has max-width: 500px;</div>
+
+<p><strong>Tip:</strong> Drag the browser window to smaller than 500px wide, to see the difference between 
+the two divs!</p>
+
+<h2>position: static;</h2>
+
+<p>An element with position: static; is not positioned in any special way; it is always positioned according to the normal flow of the page:</p>
+
+<div class="static">
+This div element has position: static;
+</div>
+<h2>position: relative;</h2>
+
+<p>An element with position: relative; is positioned relative to its normal position:</p>
+
+<div class="relative">
+This div element has position: relative;
+</div>
+
+<h2>position: fixed;</h2>
+
+<p>An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled:</p>
+
+<div class="fixed">
+This div element has position: fixed;
+</div>
+<h2>position: absolute;</h2>
+
+<p>An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed):</p>
+
+<div class="relative1">This div element has position: relative;
+  <div class="absolute">This div element has position: absolute;</div>
+</div>
+<p>Try to <b>scroll</b> inside this frame to understand how sticky positioning works.</p>
+
+<div class="sticky">I am sticky!</div>
+
+<div style="padding-bottom:2000px">
+  <p>In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.</p>
+  <p>Scroll back up to remove the stickyness.</p>
+  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+</div>
+
+<h2>Image Text</h2>
+<p>Add some text to an image in the top left corner:</p>
+
+<div class="notranslate">
+  <div style="position:relative;text-align:center;">
+    <img src="img_5terre_wide.jpg" alt="Cinque Terre" style="width:100%;height:auto;opacity:0.3">
+    <div class="Bottomleft" style="position:absolute;bottom:8px;left:16px;font-size:18px">Bottom Left</div>
+    <div class="Topleft" style="position:absolute;top:8px;left:16px;font-size:18px">Top Left</div>
+    <div class="Topright" style="position:absolute;top:8px;right:16px;font-size:18px">Top Right</div>
+    <div class="Bottomright" style="position:absolute;bottom:8px;right:16px;font-size:18px">Bottom Right</div>
+<div class="Centered" style="position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);font-size:18px">Centered</div>
+</div>
+<p style="font-size:17px;">Try it Yourself:</p>
+<a target="_blank" href="https://www.w3schools.com/css/tryit.asp?filename=trycss_image_text_top_left" class="w3-btn w3-margin-bottom">Top Left »</a> 
+<a target="_blank" href="https://www.w3schools.com/css/tryit.asp?filename=trycss_image_text_top_right" class="w3-btn w3-margin-bottom">Top Right »</a>
+<a target="_blank" href="https://www.w3schools.com/css/tryit.asp?filename=trycss_image_text_bottom_left" class="w3-btn w3-margin-bottom">Bottom Left »</a>
+<a target="_blank" href="https://www.w3schools.com/css/tryit.asp?filename=trycss_image_text_bottom_right" class="w3-btn w3-margin-bottom">Bottom Right »</a>
+<a target="_blank" href="https://www.w3schools.com/css/tryit.asp?filename=trycss_image_text_center" class="w3-btn w3-margin-bottom">Centered »</a>
+
+<p><a href="index2.html" target="_blank">visit about Z-index</a></p>
+
+
+
+
 </body>
+
+
+
 </html>
