@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  
 }
 .zdex {
     position: absolute;
@@ -493,7 +494,7 @@
   .combi2 + p {
     background-color: yellow;
   }
-  #tilde ~ p {
+  #tilde ~ .til {
     background-color: yellow; 
   }
   /* unvisited link */
@@ -558,4 +559,249 @@ a.highlight:hover {
 q:lang(no) {
   quotes: "~" "~";
   color: #e80ebd;
+}
+.pseudo-e::first-line {
+  color: #ff0000;
+  font-variant: small-caps;
+}
+
+.y::first-letter {
+  color: #ff0000;
+  font-size: xx-large;
+}
+p.intro::first-letter {
+  color: #ff0000;
+  font-size: 200%;
+}  
+.combine::first-letter {
+  color: #ff0000;
+  font-size: xx-large;
+}
+
+.combine::first-line {
+  color: #0000ff;
+  font-variant: small-caps;
+}
+.smiley::before {
+  content: url(smiley.gif);
+}
+.smiley1::after {
+  content: url(smiley.gif);
+}
+
+::marker { 
+  color: red;
+  font-size: 23px;
+}
+::selection {
+  color: red;
+  background: yellow;
+}
+.opac {
+  opacity: 0.5;
+  /* opacity: 0.2; */
+  /* opacity: 1; */
+}
+.transpa {
+  opacity: 0.5;
+}
+
+.transpa:hover {
+  opacity: 1.0;
+}
+.trans:hover {
+  opacity: 0.5;
+}
+.bg {
+  background-color: #04AA6D;
+  padding: 10px;
+}
+
+.first {
+  opacity: 0.1;
+}
+
+.second {
+  opacity: 0.3;
+}
+
+.third {
+  opacity: 0.6;
+}
+
+
+.bg1 {
+  background: rgb(4, 170, 109);
+  padding: 10px;
+}
+
+.first {
+  background: rgba(4, 170, 109, 0.1);
+}
+
+.second {
+  background: rgba(4, 170, 109, 0.3);
+}
+
+.third {
+  background: rgba(4, 170, 109, 0.6);
+}
+div.background {
+  background: url(klematis4_big.jpg) repeat;
+  border: 2px solid black;
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+
+ul.nbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.nbar1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a.navb {
+  display: block;
+  width: 60px;
+  background-color: #dddddd;
+}
+ul.nbar2 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 60px;
+} 
+
+li a.r2 {
+  display: block;
+  background-color: #dddddd;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+ul.nbar3 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #cc93c0;
+}
+
+li a.r3 {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration:underline;
+}
+
+/* Change the link color on hover */
+li a.r3:hover {
+  background-color: #32051a;
+  color: white;
+}
+
+ul.nbar4 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+li a.r4 {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+li a.r4:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+ul.nbar5 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  border: 1px solid #555;
+}
+
+li a.r5 {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li.r5-5 {
+  text-align: center;
+  border-bottom: 1px solid #555;
+}
+
+li.r5-5:last-child {
+  border-bottom: none;
+}
+
+li a.active1 {
+  background-color: #04AA6D;
+  color: white;
+}
+
+li a.r5:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+
+a.page3{
+  color: #040002;
+  font-size:x-large;
+  
+}
+.sp{
+  color: #f72525;
+  font-size:medium;
 }

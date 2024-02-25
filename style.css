@@ -441,7 +441,7 @@ p.text {
   letter-spacing: 3px;
 }
 
-a {
+a.fb {
   text-decoration: none;
   color: #008CBA;
 }
@@ -688,7 +688,7 @@ h1.mono {
 h1.cursives {
   font-family: 'Brush Script MT', cursive;
 }
-a {
+a.rgb1 {
   text-decoration-line: underline;
   color: #def609;
 }
@@ -1208,6 +1208,13 @@ div.sticky {
   cursor: pointer;
   white-space: nowrap;
 }
-
-
+a.page2{
+  color: #040002;
+  font-size:x-large;
+  
+}
+.sp{
+  color: #f72525;
+  font-size:medium;
+}
 

@@ -400,12 +400,12 @@
         <p>Paragraph 1.</p>
         
         <div id="tilde">
-          <p>Paragraph 2.</p>
+          <p class="til">Paragraph 2.</p>
         </div>
         
-        <p>Paragraph 3.</p>
+        <p class="til">Paragraph 3.</p>
         <code>Some code.</code>
-        <p>Paragraph 4.</p>
+        <p class="til">Paragraph 4.</p>
 
         <h1>CSS Pseudo-class</h1>
 
@@ -447,5 +447,170 @@
         <p>Some text <q lang="no">A quote in a paragraph</q> Some text.</p>
         <p> In this example, :lang defines the quotation marks for q elements with lang="no":</p>
         <h1>Css Pseudo Element</h1>
+
+        <p class="pseudo-e">You can use the ::first-line pseudo-element to add a special effect to the first line of a text. Some more text. And even more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more.</p>
+  
+
+        <p class="y">You can use the ::first-letter pseudo-element to add a special effect to the first character of a text!</p>
+        <p class="intro">This is an introduction.</p>
+        <p>This is a paragraph with some text. A bit more text even.</p>
+
+        <p class="combine">You can combine the ::first-letter and ::first-line pseudo-elements to add a special effect to the first letter and the first line of a text!</p>
+        <h1 class="smiley">This is a heading</h1>
+        <p>The ::before pseudo-element inserts content before the content of an element.</p>
+        
+        <h1 class="smiley">This is a heading</h1>
+        <h1 class="smiley1">This is a heading</h1>
+        <p>The ::after pseudo-element inserts content after the content of an element.</p>
+        
+        <h1 class="smiley1">This is a heading</h1>
+        <ul class="select">
+          <li>Coffee</li>
+          <li>Tea</li>
+          <li>Milk</li>
+        </ul>
+        
+        <ol class="select">
+          <li>First</li>
+          <li>Second</li>
+          <li>Third</li>
+        </ol>
+        
+        <h1>Opacity</h1>
+
+        <h1>Image Transparency</h1>
+        <p>The opacity property specifies the transparency of an element. The lower the value, the more transparent:</p>
+
+        <p>Image with 50% opacity:</p>
+        <img class="opac" src="img_forest.jpg" alt="Forest" width="170" height="100">
+        
+        <h1>Image Transparency</h1>
+        <p>The opacity property is often used together with the :hover selector to change the opacity on mouse-over:</p>
+        <img class="transpa" src="img_forest.jpg" alt="Forest" width="170" height="100">
+        <img class="transpa" src="img_mountains.jpg" alt="Mountains" width="170" height="100">
+        <img class="transpa" src="img_5terre.jpg" alt="Italy" width="170" height="100">
+        <h1>Image Transparency</h1>
+        <p>The opacity property is often used together with the :hover selector to change the opacity on mouse-over:</p>
+        <img class="trans" src="img_forest.jpg" alt="Forest" width="170" height="100">
+        <img class="trans" src="img_mountains.jpg" alt="Mountains" width="170" height="100">
+        <img class="trans" src="img_5terre.jpg" alt="Italy" width="170" height="100">
+
+        <h1>Transparent Box</h1>
+        <p>When using the opacity property to add transparency to the background of an element, all of its child elements become transparent as well. This can make the text inside a fully transparent element hard to read:</p>
+        
+        <div class="first bg"><p>opacity 0.1</p></div>
+        <div class="second bg"><p>opacity 0.3</p></div>
+        <div class="third bg"><p>opacity 0.6</p></div>
+        <div class="bg"><p>opacity 1 (default)</p></div>
+    
+        <h1>Transparent Box</h1>
+        <p>With opacity:</p>
+        <div class="bg1" style="opacity:0.1;"><p>10% opacity</p></div>
+        <div class="bg1" style="opacity:0.3;"><p>30% opacity</p></div>
+        <div class="bg1" style="opacity:0.6;"><p>60% opacity</p></div>
+        <div class="bg1"><p>opacity 1</p></div>
+        
+        <p>With RGBA color values:</p>
+        <div class="first bg1"><p>10% opacity</p></div>
+        <div class="second bg1"><p>30% opacity</p></div>
+        <div class="third bg1"><p>60% opacity</p></div>
+        <div class="bg1"><p>default</p></div>
+        
+        <p>Notice how the text gets transparent as well as the background color when using the opacity property.</p>
+        
+        <div class="background">
+          <div class="transbox">
+            <p>This is some text that is placed in the transparent box.</p>
+          </div>
+        </div>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+        
+        <p>Note: We use href="#" for test links. In a real web site this would be URLs.</p>
+        
+        <ul class="nbar">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+
+        <ul class="nbar1">
+          <li><a class="navb" href="#home">Home</a></li>
+          <li><a class="navb" href="#news">News</a></li>
+          <li><a class="navb" href="#contact">Contact</a></li>
+          <li><a class="navb" href="#about">About</a></li>
+        </ul>
+        
+        <p>A background color is added to the links to show the link area.</p>
+        <p>Notice that the whole link area is clickable, not just the text.</p>
+        
+        <p>Note: We use href="#" for test links. In a real web site this would be URLs.</p>
+        
+        <ul class="nbar2">
+          <li><a class="r2" href="#home">Home</a></li>
+          <li><a class="r2" href="#news">News</a></li>
+          <li><a class="r2" href="#contact">Contact</a></li>
+          <li><a class="r2" href="#about">About</a></li>
+        </ul>
+        
+        <p>A background color is added to the links to show the link area.</p>
+        <p>Notice that the whole link area is clickable, not just the text.</p>
+        
+
+        <h2>Vertical Navigation Bar</h2>
+
+        <ul class="nbar3">
+          <li><a class="r3" href="#home">Home</a></li>
+          <li><a class="r3" href="#news">News</a></li>
+          <li><a class="r3" href="#contact">Contact</a></li>
+          <li><a class="r3" href="#about">About</a></li>
+        </ul>
+
+        <h2>Vertical Navigation Bar</h2>
+        <p>In this example, we create an "active" class with a green background color and a white text. The class is added to the "Home" link.</p>
+
+        <ul class="nbar4">
+          <li><a class="active" href="#home">Home</a></li>
+          <li><a class="r4" href="#news">News</a></li>
+          <li><a class="r4" href="#contact">Contact</a></li>
+          <li><a class="r4" href="#about">About</a></li>
+        </ul>
+
+        <h2>Vertical Navigation Bar</h2>
+        <p>In this example, we center the navigation links and add a border to the navigation bar.</p>
+
+        <ul class="nbar5">
+          <li class="r5-5"><a class="active1" href="#home">Home</a></li>
+          <li class="r5-5"><a class="r5" href="#news">News</a></li>
+          <li class="r5-5"><a class="r5" href="#contact">Contact</a></li>
+          <li class="r5-5"><a class="r5" href="#about">About</a></li>
+        </ul>
+      
+        <ul class="nbar6">
+          <li><a class="active2" href="#home">Home...</a></li>
+          <li><a class="r6" href="#news">News..</a></li>
+          <li><a class="r6" href="#contact">Contact..</a></li>
+          <li><a class="r6" href="#about">About...</a></li>
+        </ul>
+        
+        <div class="nbar7">
+          <h2>Fixed Full-height Side Nav</h2>
+          <h3>Try to scroll this area, and see how the sidenav sticks to the page</h3>
+          <p>Notice that this div element has a left margin of 25%. This is because the side navigation is set to 25% width. If you remove the margin, the sidenav will overlay/sit on top of this div.</p>
+          <p>Also notice that we have set overflow:auto to sidenav. This will add a scrollbar when the sidenav is too long (for example if it has over 50 links inside of it).</p>
+          <p>Some text..</p>
+          <p>Some text..</p>
+          <p>Some text..</p>
+          <p>Some text..</p>
+          <p>Some text..</p>
+          <p>Some text..</p>
+          <p>Some text..</p>
+        </div>
+        <p><a class="page3" href="sidenav.html" target="_blank">PAGE 3 <span class="sp">>>>Visit sidenav</span></a></p>
   </body>
 </html>
